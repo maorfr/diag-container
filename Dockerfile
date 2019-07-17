@@ -16,5 +16,5 @@ ENV TERM=vt100
 
 RUN chmod 777 /run.sh
 
-USER 997
+# USER 997
 ENTRYPOINT ["/run.sh"]
